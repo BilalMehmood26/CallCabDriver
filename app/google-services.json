@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510722194320",
+    "project_id": "callcab-ea3d0",
+    "storage_bucket": "callcab-ea3d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510722194320:android:f5a69ada578f32fc729115",
+        "android_client_info": {
+          "package_name": "com.buzzware.callcabdriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3rGWO_TT-c_0fBRxbPLHTi1aRQHyeU9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
