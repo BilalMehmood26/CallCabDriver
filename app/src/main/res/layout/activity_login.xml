@@ -26,7 +26,7 @@
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:gravity="center"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_17sdp" />
 
@@ -37,7 +37,7 @@
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:fontFamily="@font/montserrat_medium"
                 android:gravity="center"
-                android:text="Hi! Welcome back, you've been\nmissed"
+                android:text="@string/hi_welcome_back_you_ve_been_nmissed"
                 android:textColor="@color/gray_color"
                 android:textSize="@dimen/_10sdp" />
 
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Email"
+                android:text="@string/email"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11sdp" />
 
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Password"
+                android:text="@string/password"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11sdp" />
 
@@ -82,7 +82,7 @@
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:background="@drawable/rounded_with_gray_border"
                 android:fontFamily="@font/montserrat_medium"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:imeOptions="actionDone"
                 android:paddingHorizontal="@dimen/_10sdp"
@@ -111,7 +111,7 @@
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:gravity="center"
                 android:paddingVertical="@dimen/_9sdp"
-                android:text="Sign In"
+                android:text="@string/sign_in"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_13sdp" />
 
@@ -132,7 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="  or Sign in with  "
+                    android:text="@string/or_sign_in_with"
                     android:textColor="@color/gray_color"
                     android:textSize="@dimen/_10sdp" />
 
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="Don't have an account?"
+                    android:text="@string/don_t_have_an_account"
                     android:textColor="@color/gray_color"
                     android:textSize="@dimen/_10sdp" />
 
@@ -187,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_semi_bold"
-                    android:text=" Sign Up"
+                    android:text="@string/sign_up_with_space"
                     android:textColor="@color/gradient_1"
                     android:textSize="@dimen/_10sdp" />
 

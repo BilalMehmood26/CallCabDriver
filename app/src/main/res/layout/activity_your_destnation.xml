@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/montserrat_semi_bold"
         android:gravity="center"
-        android:text="Your Destination"
+        android:text="@string/your_destination"
         android:textColor="@color/white"
         android:textSize="@dimen/_15sdp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -160,7 +160,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_semi_bold"
             android:text="Completed"
-            android:textColor="@color/gradient_1"
+            android:textColor="@color/white"
             android:textSize="@dimen/_9sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -205,7 +205,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semi_bold"
-                        android:text="Pick-up Location"
+                        android:text="@string/pick_up_location"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_8sdp" />
 
@@ -215,7 +215,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_2sdp"
                         android:fontFamily="@font/montserrat_semi_bold"
-                        android:text="Your location"
+                        android:text="@string/your_location"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_10sdp" />
                 </LinearLayout>
@@ -252,7 +252,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semi_bold"
-                        android:text="Drop-off Location"
+                        android:text="@string/drop_off_location"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_8sdp" />
 
@@ -262,7 +262,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_2sdp"
                         android:fontFamily="@font/montserrat_semi_bold"
-                        android:text="Consectetur Hotel"
+                        android:text="@string/destination_location"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_10sdp" />
                 </LinearLayout>
@@ -351,7 +351,7 @@
         android:paddingVertical="@dimen/_10sdp"
         android:paddingTop="@dimen/_10sdp"
         android:paddingBottom="@dimen/_10sdp"
-        android:text="Reached"
+        android:text="@string/reached"
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         app:layout_constraintBottom_toBottomOf="parent" />

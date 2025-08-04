@@ -48,7 +48,7 @@
                 android:paddingTop="@dimen/_4sdp"
                 android:paddingRight="@dimen/_8sdp"
                 android:paddingBottom="@dimen/_4sdp"
-                android:text="Your Profile"
+                android:text="@string/your_profile"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_9sdp" />
         </LinearLayout>

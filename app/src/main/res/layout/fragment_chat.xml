@@ -43,7 +43,7 @@
             android:background="@android:color/transparent"
             android:fontFamily="@font/montserrat_medium"
             android:gravity="start"
-            android:hint="Search"
+            android:hint="@string/search"
             android:imeOptions="actionDone"
             android:paddingVertical="@dimen/_12sdp"
             android:paddingTop="@dimen/_12sdp"

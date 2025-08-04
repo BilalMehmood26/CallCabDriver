@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="forget_password"><u>Olvidar contraseña</u></string>
+    <string name="term"><u>Términos y condiciones</u></string>
+    <string name="language">Idioma</string>
+    <string name="choose_language">Elegir idioma</string>
+    <string name="chats">Chats</string>
+    <string name="type_your_message">Escribe tu mensaje</string>
+    <string name="home">Inicio</string>
+    <string name="my_ride">Mi Viaje</string>
+    <string name="messages">Mensajes</string>
+    <string name="wallet">Billetera</string>
+    <string name="profile">Perfil</string>
+    <string name="driver_information">Información del conductor</string>
+    <string name="driving_license_number">Número de licencia de conducir</string>
+    <string name="enter_here">Ingresa aquí</string>
+    <string name="driver_car">Auto del conductor</string>
+    <string name="car_make">Marca del auto</string>
+    <string name="car_model">Modelo del auto</string>
+    <string name="driver_car_number">Número del auto del conductor</string>
+    <string name="tap_to_upload_license_image">Toca para subir la imagen de la licencia</string>
+    <string name="tap_to_upload_car_insurance">Toca para subir el seguro del auto</string>
+    <string name="save_driver_information">Guardar información del conductor</string>
+    <string name="account">Cuenta</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="save_information">Guardar información</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="hi_welcome_back_you_ve_been_nmissed">¡Hola! Bienvenido de nuevo, te hemos\nechado de menos</string>
+    <string name="or_sign_in_with">o Iniciar sesión con</string>
+    <string name="don_t_have_an_account">¿No tienes una cuenta?</string>
+    <string name="sign_up_with_space">Regístrate</string>
+    <string name="notification">Notificación</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="fill_your_information_below_or_register_nwith_your_social_account">Rellena tu información abajo o regístrate\ncon tu cuenta social</string>
+    <string name="name">Nombre</string>
+    <string name="agree_with">Acepto los</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="sign_in_with_space">Inicia sesión</string>
+    <string name="your_destination">Tu destino</string>
+    <string name="drop_off_location">Lugar de llegada</string>
+    <string name="pick_up_location">Lugar de recogida</string>
+    <string name="your_location">Tu ubicación</string>
+    <string name="destination_location">Ubicación de destino</string>
+    <string name="reached">Llegado</string>
+    <string name="search">Buscar</string>
+    <string name="your_profile">Tu perfil</string>
+    <string name="ride_accept">Viaje aceptado</string>
+    <string name="complete_ride">Completar viaje</string>
+    <string name="delete_account">Eliminar cuenta</string>
+    <string name="balance">Saldo</string>
+    <string name="withdraw">Retirar</string>
+
+</resources>

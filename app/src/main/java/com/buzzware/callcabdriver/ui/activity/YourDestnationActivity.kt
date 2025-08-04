@@ -36,7 +36,7 @@ import java.util.Date
 import java.util.Locale
 import java.util.UUID
 
-class YourDestnationActivity : AppCompatActivity(), OnMapReadyCallback {
+class YourDestnationActivity : BaseActivity(), OnMapReadyCallback {
 
     private val binding: ActivityYourDestnationBinding by lazy {
         ActivityYourDestnationBinding.inflate(layoutInflater)

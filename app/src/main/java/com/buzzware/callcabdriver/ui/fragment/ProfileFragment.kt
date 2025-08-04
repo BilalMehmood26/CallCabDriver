@@ -15,6 +15,7 @@ import com.buzzware.callcabdriver.R
 import com.buzzware.callcabdriver.databinding.FragmentProfileBinding
 import com.buzzware.callcabdriver.ui.activity.DriverInfoActivity
 import com.buzzware.callcabdriver.ui.activity.EditProfileActivity
+import com.buzzware.callcabdriver.ui.activity.LanguageDetailActivity
 import com.buzzware.callcabdriver.ui.activity.NotificationActivity
 import com.buzzware.callcabdriver.ui.util.UserSession
 import com.google.firebase.auth.ktx.auth
@@ -65,6 +66,14 @@ class ProfileFragment : Fragment() {
 
             driverLayout.setOnClickListener {
                 startActivity(Intent(fragmentContext, DriverInfoActivity::class.java))
+                (fragmentContext as Activity).overridePendingTransition(
+                    androidx.appcompat.R.anim.abc_fade_in,
+                    androidx.appcompat.R.anim.abc_fade_out
+                )
+            }
+
+            languageLayout.setOnClickListener {
+                startActivity(Intent(fragmentContext, LanguageDetailActivity::class.java))
                 (fragmentContext as Activity).overridePendingTransition(
                     androidx.appcompat.R.anim.abc_fade_in,
                     androidx.appcompat.R.anim.abc_fade_out

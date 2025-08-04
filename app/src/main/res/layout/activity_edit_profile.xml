@@ -33,7 +33,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/montserrat_semi_bold"
         android:gravity="center"
-        android:text="Account"
+        android:text="@string/account"
         android:textColor="@color/white"
         android:textSize="@dimen/_15sdp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="UserName"
+            android:text="@string/username"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_11sdp" />
 
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Email"
+            android:text="@string/email"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_11sdp" />
 
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Phone number"
+            android:text="@string/phone_number"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_11sdp" />
 
@@ -165,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Password"
+            android:text="@string/password"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_11sdp" />
 
@@ -194,7 +194,7 @@
         android:fontFamily="@font/montserrat_semi_bold"
         android:gravity="center"
         android:paddingVertical="@dimen/_9sdp"
-        android:text="Save Information"
+        android:text="@string/save_information"
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         app:layout_constraintBottom_toBottomOf="parent" />

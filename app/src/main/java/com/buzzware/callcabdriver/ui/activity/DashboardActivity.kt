@@ -24,7 +24,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
-class DashboardActivity : AppCompatActivity() {
+class DashboardActivity : BaseActivity() {
 
     private val binding : ActivityDashboardBinding by lazy {
         ActivityDashboardBinding.inflate(layoutInflater)
@@ -129,32 +129,32 @@ class DashboardActivity : AppCompatActivity() {
 
     private fun setHomeTab() {
         binding.homeTab.setImageResource(R.drawable.bottom_home_selected)
-        binding.titleTV.text = "Home"
+        binding.titleTV.text = getString(R.string.home)
         loadFragment(HomeFragment())
     }
 
     private fun setRideTab() {
         binding.rideTab.setImageResource(R.drawable.bottom_ride_selected)
-        binding.titleTV.text = "My Ride"
+        binding.titleTV.text = getString(R.string.my_ride)
         loadFragment(MyRideFragment())
     }
 
     private fun setChatTab() {
         binding.chatTab.setImageResource(R.drawable.bottom_chat_selected)
-        binding.titleTV.text = "Messages"
+        binding.titleTV.text =  getString(R.string.messages)
         loadFragment(ChatFragment())
     }
 
     private fun setWalletTab() {
         binding.walletTab.setImageResource(R.drawable.bottom_wallet_selected)
-        binding.titleTV.text = "Wallet"
+        binding.titleTV.text = getString(R.string.wallet)
         loadFragment(WalletFragment())
     }
 
     private fun setProfileTab() {
         binding.profileTab.setImageResource(R.drawable.bottom_profile_selected)
         binding.logoutIV.visibility = View.VISIBLE
-        binding.titleTV.text = "Profile"
+        binding.titleTV.text = getString(R.string.profile)
         loadFragment(ProfileFragment())
     }
 

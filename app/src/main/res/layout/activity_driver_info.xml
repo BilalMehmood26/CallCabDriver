@@ -33,7 +33,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/montserrat_semi_bold"
         android:gravity="center"
-        android:text="Driver information"
+        android:text="@string/driver_information"
         android:textColor="@color/white"
         android:textSize="@dimen/_15sdp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Driving License number"
+            android:text="@string/driving_license_number"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_9sdp" />
 
@@ -73,7 +73,7 @@
             android:layout_marginTop="@dimen/_4sdp"
             android:background="@null"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:hint="Enter here"
+            android:hint="@string/enter_here"
             android:imeOptions="actionNext"
             android:inputType="text"
             android:textColor="@color/black"
@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Driver Car"
+            android:text="@string/driver_car"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_9sdp" />
 
@@ -113,7 +113,7 @@
             android:background="@null"
             android:inputType="text"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:hint="Enter here"
+            android:hint="@string/enter_here"
             android:imeOptions="actionNext"
             android:textColor="@color/black"
             android:textSize="@dimen/_11sdp" />
@@ -140,7 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Car Make"
+            android:text="@string/car_make"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_9sdp" />
 
@@ -152,7 +152,7 @@
             android:background="@null"
             android:inputType="text"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:hint="Enter here"
+            android:hint="@string/enter_here"
             android:imeOptions="actionNext"
             android:textColor="@color/black"
             android:textSize="@dimen/_11sdp" />
@@ -179,7 +179,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Car Model"
+            android:text="@string/car_model"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_9sdp" />
 
@@ -190,7 +190,7 @@
             android:layout_marginTop="@dimen/_4sdp"
             android:background="@null"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:hint="Enter here"
+            android:hint="@string/enter_here"
             android:inputType="text"
             android:imeOptions="actionNext"
             android:textColor="@color/black"
@@ -218,7 +218,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Driver Car number"
+            android:text="@string/driver_car_number"
             android:textColor="@color/gray_color"
             android:textSize="@dimen/_9sdp" />
 
@@ -229,7 +229,7 @@
             android:layout_marginTop="@dimen/_4sdp"
             android:background="@null"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:hint="Enter here"
+            android:hint="@string/enter_here"
             android:inputType="text"
             android:imeOptions="actionDone"
             android:textColor="@color/black"
@@ -250,7 +250,7 @@
         android:paddingVertical="@dimen/_9sdp"
         android:paddingTop="@dimen/_9sdp"
         android:paddingBottom="@dimen/_9sdp"
-        android:text="Tap to Upload License Image"
+        android:text="@string/tap_to_upload_license_image"
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout16" />
@@ -269,7 +269,7 @@
         android:paddingVertical="@dimen/_9sdp"
         android:paddingTop="@dimen/_9sdp"
         android:paddingBottom="@dimen/_9sdp"
-        android:text="Tap to Upload Car Insurance"
+        android:text="@string/tap_to_upload_car_insurance"
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         android:visibility="gone"
@@ -288,7 +288,7 @@
         android:paddingVertical="@dimen/_9sdp"
         android:paddingTop="@dimen/_9sdp"
         android:paddingBottom="@dimen/_9sdp"
-        android:text="Save Driver Information"
+        android:text="@string/save_driver_information"
         android:textColor="@color/black"
         android:textSize="@dimen/_13sdp"
         app:layout_constraintBottom_toBottomOf="parent" />

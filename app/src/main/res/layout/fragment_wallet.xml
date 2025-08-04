@@ -44,7 +44,7 @@
             android:layout_marginTop="@dimen/_4sdp"
             android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
-            android:text="Balance"
+            android:text="@string/balance"
             android:textColor="@color/white"
             android:textSize="@dimen/_14sdp" />
 
@@ -63,7 +63,7 @@
             android:paddingTop="@dimen/_6sdp"
             android:paddingRight="@dimen/_20sdp"
             android:paddingBottom="@dimen/_6sdp"
-            android:text="Withdraw"
+            android:text="@string/withdraw"
             android:textColor="@color/black"
             android:textSize="@dimen/_13sdp" />
     </LinearLayout>

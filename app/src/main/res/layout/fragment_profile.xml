@@ -97,7 +97,7 @@
                     android:layout_marginStart="@dimen/_8sdp"
                     android:fontFamily="@font/montserrat_medium"
                     android:gravity="center"
-                    android:text="Account"
+                    android:text="@string/account"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +147,7 @@
                     android:layout_marginStart="@dimen/_8sdp"
                     android:fontFamily="@font/montserrat_medium"
                     android:gravity="center"
-                    android:text="Driver information"
+                    android:text="@string/driver_information"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -192,11 +192,56 @@
                     android:layout_marginStart="@dimen/_8sdp"
                     android:fontFamily="@font/montserrat_medium"
                     android:gravity="center"
-                    android:text="Notification"
+                    android:text="@string/notification"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/notificationIV"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:src="@drawable/ic_next"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/languageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@drawable/rounded_with_gray_border"
+                android:paddingHorizontal="@dimen/_7sdp"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingLeft="@dimen/_7sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:paddingRight="@dimen/_7sdp"
+                android:paddingBottom="@dimen/_7sdp">
+
+                <ImageView
+                    android:id="@+id/languageIV"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/iv_language"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:gravity="center"
+                    android:text="@string/language"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/languageIV"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
@@ -237,7 +282,7 @@
                     android:layout_marginStart="@dimen/_8sdp"
                     android:fontFamily="@font/montserrat_medium"
                     android:gravity="center"
-                    android:text="Delete Acccount"
+                    android:text="@string/delete_account"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sdp"
                     app:layout_constraintBottom_toBottomOf="parent"

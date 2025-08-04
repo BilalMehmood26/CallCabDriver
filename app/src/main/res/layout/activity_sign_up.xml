@@ -27,7 +27,7 @@
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:gravity="center"
-                android:text="Create Account"
+                android:text="@string/create_account"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_17sdp" />
 
@@ -38,7 +38,7 @@
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:fontFamily="@font/montserrat_medium"
                 android:gravity="center"
-                android:text="Fill your information below or register\nwith your social account,"
+                android:text="@string/fill_your_information_below_or_register_nwith_your_social_account"
                 android:textColor="@color/gray_color"
                 android:textSize="@dimen/_10sdp" />
 
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Name"
+                android:text="@string/name"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11sdp" />
 
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Email"
+                android:text="@string/email"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11sdp" />
 
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Password"
+                android:text="@string/password"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_11sdp" />
 
@@ -109,7 +109,7 @@
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:background="@drawable/rounded_with_gray_border"
                 android:fontFamily="@font/montserrat_medium"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:imeOptions="actionDone"
                 android:paddingHorizontal="@dimen/_10sdp"
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
                     android:fontFamily="@font/montserrat_semi_bold"
-                    android:text="Agree with "
+                    android:text="@string/agree_with"
                     android:checked="true"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_10sdp" />
@@ -155,7 +155,7 @@
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:gravity="center"
                 android:paddingVertical="@dimen/_9sdp"
-                android:text="Sign Up"
+                android:text="@string/sign_up"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_13sdp" />
 
@@ -176,7 +176,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="  or Sign in with  "
+                    android:text="@string/or_sign_in_with"
                     android:textColor="@color/gray_color"
                     android:textSize="@dimen/_10sdp" />
 
@@ -198,7 +198,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="Already have an account?"
+                    android:text="@string/already_have_an_account"
                     android:textColor="@color/gray_color"
                     android:textSize="@dimen/_10sdp" />
 
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_semi_bold"
-                    android:text=" Sign In"
+                    android:text="@string/sign_in_with_space"
                     android:textColor="@color/gradient_1"
                     android:textSize="@dimen/_10sdp" />
 

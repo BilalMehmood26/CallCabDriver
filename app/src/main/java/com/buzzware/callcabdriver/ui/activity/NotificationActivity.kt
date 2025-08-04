@@ -12,7 +12,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
-class NotificationActivity : AppCompatActivity() {
+class NotificationActivity : BaseActivity() {
 
     private val binding: ActivityNotificationBinding by lazy {
         ActivityNotificationBinding.inflate(layoutInflater)

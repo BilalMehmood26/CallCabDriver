@@ -17,7 +17,7 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.util.UUID
 
-class ConversationActivity : AppCompatActivity() {
+class ConversationActivity : BaseActivity() {
 
     private val binding: ActivityConversationBinding by lazy {
         ActivityConversationBinding.inflate(layoutInflater)
