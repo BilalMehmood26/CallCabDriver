@@ -100,7 +100,6 @@ class ProfileFragment : Fragment() {
                 }
             }
         }
-
     }
 
     override fun onAttach(context: Context) {
